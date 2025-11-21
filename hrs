@@ -1,3 +1,4 @@
+<!-- original : https://codepen.io/SeanNorton/pen/LWBXQL -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,7 +38,7 @@ h1 {
 .card {
     padding: 10px 25px 10px 25px;
     border-radius: 10px;
-    background: #bee9e8;
+    background: #009688;
     color: #fff;
     display: inline-block;
     box-shadow: 2px 2px 1px 0px #295C7B;
@@ -123,7 +124,6 @@ if(today.getHours() >12){
 else{
     seconds+=" am"
 }
-
 hrs = today.getHours();
 if (hrs < 12)
         greet = 'Good Morning  ';
