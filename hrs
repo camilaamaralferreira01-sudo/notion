@@ -1,4 +1,3 @@
-<!-- original : https://codepen.io/SeanNorton/pen/LWBXQL -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,7 +37,7 @@ h1 {
 .card {
     padding: 10px 25px 10px 25px;
     border-radius: 10px;
-    background: #009688;
+    background: #bee9e8;
     color: #fff;
     display: inline-block;
     box-shadow: 2px 2px 1px 0px #295C7B;
@@ -118,12 +117,13 @@ var today = new Date();
 var hour = zeros(twelveHour(today.getHours()));
 var minutes = zeros(today.getMinutes());
 var seconds = zeros(today.getSeconds());
-if(today.getHours() >=12){
+if(today.getHours() >12){
     seconds+=" pm"
 }
 else{
     seconds+=" am"
 }
+
 hrs = today.getHours();
 if (hrs < 12)
         greet = 'Good Morning  ';
